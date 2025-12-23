@@ -1,0 +1,23 @@
+# config.yaml
+model_settings:
+  default_model: "google/pegasus-xsum"
+  cache_dir: "./model_cache"
+  use_gpu: true
+
+summarization:
+  default_max_length: 150
+  default_min_length: 40
+  default_num_beams: 8
+  default_temperature: 0.8
+
+processing:
+  chunk_size: 800
+  batch_size: 4
+
+output:
+  default_dir: "./summaries"
+  save_format: "json"
+
+logging:
+  level: "INFO"
+  file: "summarizer.log"

@@ -1,0 +1,171 @@
+2025-12-04 17:16:41,466 - __main__ - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-04 17:16:41,470 - __main__ - INFO - Downloading NLTK punkt data...
+2025-12-04 17:16:48,603 - __main__ - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-04 17:16:48,603 - __main__ - INFO - GPU memory: 2.15 GB
+2025-12-04 17:16:48,603 - __main__ - INFO - Using device: cuda
+2025-12-04 17:16:48,603 - __main__ - INFO - Loading tokenizer and model...
+2025-12-04 17:16:48,603 - __main__ - ERROR - Failed to initialize model: 
+PegasusTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+2025-12-04 17:16:48,746 - __main__ - INFO - GPU cache cleared
+2025-12-04 17:19:06,264 - __main__ - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-04 17:19:06,917 - __main__ - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-04 17:19:06,917 - __main__ - INFO - GPU memory: 2.15 GB
+2025-12-04 17:19:06,917 - __main__ - INFO - Using device: cuda
+2025-12-04 17:19:06,917 - __main__ - INFO - Loading tokenizer and model...
+2025-12-04 17:41:59,750 - summarizer - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-04 17:42:00,379 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-04 17:42:00,379 - summarizer - INFO - GPU memory: 2.15 GB
+2025-12-04 17:42:00,379 - summarizer - INFO - Using device: cuda
+2025-12-04 17:42:00,379 - summarizer - INFO - Loading tokenizer and model...
+2025-12-04 17:47:34,706 - summarizer - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-04 17:47:35,259 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-04 17:47:35,259 - summarizer - INFO - GPU memory: 2.15 GB
+2025-12-04 17:47:35,259 - summarizer - INFO - Using device: cuda
+2025-12-04 17:47:35,259 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 10:36:04,185 - summarizer - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-05 10:36:04,981 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-05 10:36:04,981 - summarizer - INFO - GPU memory: 2.15 GB
+2025-12-05 10:36:04,981 - summarizer - INFO - Using device: cuda
+2025-12-05 10:36:04,981 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 10:56:32,150 - summarizer - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-05 10:56:32,788 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-05 10:56:32,788 - summarizer - INFO - GPU memory: 2.15 GB
+2025-12-05 10:56:32,788 - summarizer - INFO - Using device: cuda
+2025-12-05 10:56:32,788 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 11:11:51,013 - summarizer - INFO - Initializing PegasusSummarizer with model: google/pegasus-xsum
+2025-12-05 11:11:51,708 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-05 11:11:51,708 - summarizer - INFO - GPU memory: 2.00 GB
+2025-12-05 11:11:51,832 - summarizer - INFO - Using device: cpu
+2025-12-05 11:11:51,832 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 11:27:49,238 - summarizer - INFO - Initializing DistilBartAbstractiveSummarizer with model: sshleifer/distilbart-cnn-12-6
+2025-12-05 11:27:49,862 - summarizer - INFO - GPU detected: NVIDIA GeForce MX250
+2025-12-05 11:27:49,862 - summarizer - INFO - GPU memory: 2.00 GB
+2025-12-05 11:27:49,862 - summarizer - INFO - GPU VRAM < 4GB -> forcing CPU for stability.
+2025-12-05 11:27:49,862 - summarizer - INFO - Using device: cpu
+2025-12-05 11:27:49,862 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 11:27:57,152 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-12-05 11:32:06,466 - summarizer - ERROR - Failed to initialize model: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+2025-12-05 11:32:07,160 - summarizer - INFO - GPU cache cleared
+2025-12-05 11:32:08,461 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-12-05 12:04:14,669 - summarizer - INFO - Initializing DistilBartAbstractiveSummarizer with model: sshleifer/distilbart-cnn-12-6
+2025-12-05 12:04:14,675 - summarizer - INFO - Using CPU
+2025-12-05 12:04:14,676 - summarizer - INFO - Using device: cpu
+2025-12-05 12:04:14,676 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 12:04:22,114 - summarizer - INFO - Model loaded successfully: sshleifer/distilbart-cnn-12-6
+2025-12-05 12:04:22,124 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 12:04:22,283 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 12:04:30,026 - summarizer - INFO - Summary generated: 41 words (82.2% reduction)
+2025-12-05 12:21:01,198 - summarizer - INFO - Initializing DistilBartAbstractiveSummarizer with model: sshleifer/distilbart-cnn-12-6
+2025-12-05 12:21:01,214 - summarizer - INFO - Using CPU
+2025-12-05 12:21:01,214 - summarizer - INFO - Using device: cpu
+2025-12-05 12:21:01,214 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 12:21:08,636 - summarizer - INFO - Model loaded successfully: sshleifer/distilbart-cnn-12-6
+2025-12-05 12:21:08,643 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 12:21:08,689 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 12:21:15,278 - summarizer - INFO - Summary generated: 38 words (83.5% reduction)
+2025-12-05 12:33:06,529 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 12:33:06,531 - summarizer - INFO - Using CPU
+2025-12-05 12:33:06,531 - summarizer - INFO - Using device: cpu
+2025-12-05 12:33:06,531 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 12:33:14,510 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 12:33:14,515 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 12:33:14,576 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 12:51:02,793 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 12:51:02,793 - summarizer - INFO - Using CPU
+2025-12-05 12:51:02,793 - summarizer - INFO - Using device: cpu
+2025-12-05 12:51:02,793 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 12:51:10,405 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 12:51:10,411 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 12:51:24,563 - summarizer - INFO - Structured summary → target_paras=3, target_lines_per_para=3, max_len=198, min_len=99
+2025-12-05 12:51:24,606 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 12:52:32,007 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 13:08:06,832 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 13:08:06,832 - summarizer - INFO - Using CPU
+2025-12-05 13:08:06,832 - summarizer - INFO - Using device: cpu
+2025-12-05 13:08:06,832 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 13:08:16,227 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 13:08:16,236 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 13:08:22,322 - summarizer - INFO - Structured summary → target_paras=8, target_lines_per_para=3, max_len=350, min_len=200
+2025-12-05 13:08:22,402 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 13:18:14,832 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 13:18:14,833 - summarizer - INFO - Using CPU
+2025-12-05 13:18:14,833 - summarizer - INFO - Using device: cpu
+2025-12-05 13:18:14,833 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 13:18:23,247 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 13:18:23,247 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 13:18:23,322 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 14:54:40,339 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 14:54:40,339 - summarizer - INFO - Using CPU
+2025-12-05 14:54:40,339 - summarizer - INFO - Using device: cpu
+2025-12-05 14:54:40,339 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 14:54:48,496 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 14:54:48,498 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 14:54:53,915 - summarizer - INFO - Structured summary → target_paras=7, target_lines_per_para=5, max_len=350, min_len=200
+2025-12-05 14:54:53,977 - summarizer - INFO - Summarizing text (230 words)...
+2025-12-05 15:00:09,666 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 15:00:09,666 - summarizer - INFO - Using CPU
+2025-12-05 15:00:09,666 - summarizer - INFO - Using device: cpu
+2025-12-05 15:00:09,666 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 15:00:19,332 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 15:00:19,332 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 15:00:35,578 - summarizer - INFO - Structured summary → target_paras=5, target_lines_per_para=3, max_len=330, min_len=165
+2025-12-05 15:00:35,687 - summarizer - INFO - Summarizing text (107 words)...
+2025-12-05 15:02:33,650 - summarizer - INFO - Summarizing text (107 words)...
+2025-12-05 15:03:07,569 - summarizer - INFO - Summarizing text (107 words)...
+2025-12-05 15:15:48,002 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 15:15:48,005 - summarizer - INFO - Using CPU
+2025-12-05 15:15:48,005 - summarizer - INFO - Using device: cpu
+2025-12-05 15:15:48,005 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 15:15:58,545 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 15:15:58,550 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 15:15:58,611 - summarizer - INFO - Summarizing text (274 words)...
+2025-12-05 15:46:55,384 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 15:46:55,386 - summarizer - INFO - Using CPU
+2025-12-05 15:46:55,386 - summarizer - INFO - Using device: cpu
+2025-12-05 15:46:55,386 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 15:47:07,072 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 15:47:07,078 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 15:47:31,976 - summarizer - INFO - Structured summary → target_paras=2, target_lines_per_para=5, max_len=220, min_len=110
+2025-12-05 15:47:32,071 - summarizer - INFO - Summarizing text (55 words)...
+2025-12-05 15:49:18,129 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 15:49:18,140 - summarizer - INFO - Using CPU
+2025-12-05 15:49:18,140 - summarizer - INFO - Using device: cpu
+2025-12-05 15:49:18,140 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 15:49:26,623 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 15:49:26,625 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 15:49:26,666 - summarizer - INFO - Summarizing text (279 words)...
+2025-12-05 16:00:14,652 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 16:00:14,665 - summarizer - INFO - Using CPU
+2025-12-05 16:00:14,665 - summarizer - INFO - Using device: cpu
+2025-12-05 16:00:14,665 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 16:00:23,090 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 16:00:23,093 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 16:00:23,157 - summarizer - INFO - Summarizing text (86 words)...
+2025-12-05 16:32:27,753 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-05 16:32:27,755 - summarizer - INFO - Using CPU
+2025-12-05 16:32:27,755 - summarizer - INFO - Using device: cpu
+2025-12-05 16:32:27,755 - summarizer - INFO - Loading tokenizer and model...
+2025-12-05 16:32:38,427 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-05 16:32:38,430 - summarizer - INFO - Vocab size: 50,265
+2025-12-05 16:32:38,479 - summarizer - INFO - Summarizing text (7 words)...
+2025-12-07 19:05:25,114 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-07 19:05:25,142 - summarizer - INFO - Using CPU
+2025-12-07 19:05:25,142 - summarizer - INFO - Using device: cpu
+2025-12-07 19:05:25,144 - summarizer - INFO - Loading tokenizer and model...
+2025-12-07 19:05:51,208 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-07 19:05:51,217 - summarizer - INFO - Vocab size: 50,265
+2025-12-07 19:05:51,577 - summarizer - INFO - Summarizing text (175 words)...
+2025-12-07 19:10:01,643 - summarizer - INFO - Summarizing text (175 words)...
+2025-12-08 11:51:31,386 - summarizer - INFO - Initializing BartLargeAbstractiveSummarizer with model: facebook/bart-large-cnn
+2025-12-08 11:51:31,392 - summarizer - INFO - Using CPU
+2025-12-08 11:51:31,393 - summarizer - INFO - Using device: cpu
+2025-12-08 11:51:31,393 - summarizer - INFO - Loading tokenizer and model...
+2025-12-08 11:51:43,225 - summarizer - INFO - Model loaded successfully: facebook/bart-large-cnn
+2025-12-08 11:51:43,225 - summarizer - INFO - Vocab size: 50,265
+2025-12-08 11:51:43,592 - summarizer - INFO - Summarizing text (186 words)...
+2025-12-08 11:52:46,607 - summarizer - INFO - Summarizing text (186 words)...
+2025-12-08 11:53:57,445 - summarizer - INFO - Summarizing text (186 words)...
